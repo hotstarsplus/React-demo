@@ -1,0 +1,37 @@
+.container{
+    width: 800px;
+    margin:0 auto;
+    border: 1px solid black;
+}
+.text-center{
+    font-size: 40px;
+    text-align:center
+}
+.col-md-12{
+    width: 800px;
+    height: 70px;
+    font-family: 微软雅黑;
+	font-size: 16px;
+}
+.form-group{
+    float: left;
+}
+.clearfix:after,.clearfix:before { 
+    content: "";
+    display: block;
+    clear: both;
+}
+.table{ 
+    border: 1px solid blueviolet; 
+    margin-top: -200px; 
+    margin:0 auto;
+}
+
+tr{
+    border: 1px;
+    height: 5px;
+   
+}
+td{
+    width: 100px;
+}

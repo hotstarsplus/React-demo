@@ -1,0 +1,87 @@
+@import '~antd/dist/antd.css';
+
+/* 字体样式 --------start */
+.cardTitleStyle{
+    color: blueviolet;
+    margin: 10px 0px;
+    font-size: 16px;
+    /* 字体需要更正，不清楚规范 */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.cardEStyle{
+    color: rgb(144, 146, 145);
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.navStyle{
+    display: block;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* 字体样式 --------end */
+
+.canvas{
+    padding: 20px;
+    overflow: auto;
+    height: 100%;
+}
+
+/* 填充满一个20% */
+.gridStyle{
+    width: 100%;
+} 
+
+/* 使用flex布局 -----start */
+.cflex{
+    display: flex;
+    flex-direction: row; /* 左对齐 */
+    /* border: 1px solid black; */
+    flex-wrap: wrap;    /* 自动换行，第一行在上，使用float不需要设置换行，放不下就自动下去 */
+}
+
+.caflex{
+    width: 20%;
+}
+/* 使用flex布局 -----end */
+
+.titleCardStyle{
+    cursor: pointer;
+    margin: 30px auto;
+    font-size: 16px;
+    color: blueviolet;
+    text-align: center;
+}
+
+
+/* 使用浮动布局 */
+/*
+.cafloat{
+    float: left;
+    width: 20%;
+}
+
+.cfloat{
+    float: left;
+    width: 100%;
+}
+
+
+/* 公共类清楚浮动 */
+/*
+.clearfix:after,.clearfix:before { 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+*/
+

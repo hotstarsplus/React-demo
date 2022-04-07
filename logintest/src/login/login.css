@@ -1,0 +1,49 @@
+@import '~antd/dist/antd.css';
+
+.loginDiv{
+    width: 320px;
+    padding: 10px 20px;
+    background: #fff;
+}
+
+
+.textCenter,.BuCenter{
+   text-align: center;
+}
+
+.BuCenter button{
+    width: 100%;
+}
+
+.lable{
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 以下为画布设置 */
+
+.loginCanvasStyle{
+    background-color: rgb(74, 74, 186);
+    width:  100%;
+    height: 100%;
+    position: absolute;
+}
+
+.loginPosition{
+    position: absolute;
+    top: 24%;
+    right: 13%; 
+}
+
+.clearfix:after,.clearfix:before { 
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* .loginDiv .inputDiv input{
+    cha
+} */
