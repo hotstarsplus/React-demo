@@ -1,0 +1,23 @@
+.copy-meter-param-box {
+    margin-top: 16px;
+    .ant-card-body {
+        height: 195px;
+    }
+    .ant-checkbox-wrapper {
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+    .ant-radio-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .ant-radio-wrapper {
+        margin-bottom: 8px;
+    }
+    .copy-param-space {
+        margin-bottom: 8px;
+    }
+    .copy-param-right-space {
+        margin-right: 8px;
+    }
+}

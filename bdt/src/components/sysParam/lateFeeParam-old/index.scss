@@ -1,0 +1,48 @@
+.text-col {
+    width: 100px;
+}
+
+.Component-col {
+    width: calc(100% - 120px);
+
+    .Component-col-span {
+        float: right;
+
+        .anticon-info-circle {
+            color: orange;
+            padding-right: 8px;
+        }
+    }
+}
+
+.laterFeeParam-checkBox {
+    .ant-input {
+        margin: 0px 6px 0px 6px;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+        padding: 2px 0px 0px 0px;
+    }
+}
+
+.laterFeeParam-radio {
+    .ant-input {
+        margin: 0px 6px 0px 6px;
+        width: 50px;
+        height: 20px;
+        text-align: center;
+        padding: 2px 0px 0px 0px;
+    }
+}
+
+.lateFeeComputeProportion-input {
+    width: 24%;
+    text-align: center;
+    height: 24px;
+    padding: 2px 0px 0px 0px;
+}
+
+
+.row-FlexAlign {
+    margin-bottom: 10px;
+}

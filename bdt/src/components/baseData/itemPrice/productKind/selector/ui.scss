@@ -1,0 +1,23 @@
+.ant-select-tree-dropdown{
+    ::-webkit-scrollbar-track-piece {
+        background-color: #f8f8f8;
+    }
+
+    ::-webkit-scrollbar {
+        width: 9px;
+        height: 11px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #dddddd;
+        background-clip: padding-box;
+        min-height: 28px; 
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #bbb;
+    }
+
+    scrollbar-color: rgba(0, 0, 0, .2) transparent;
+    scrollbar-width: thin;
+}

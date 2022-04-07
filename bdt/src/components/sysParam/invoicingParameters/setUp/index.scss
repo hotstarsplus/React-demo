@@ -1,0 +1,32 @@
+.SetupViewTable {
+
+    box-sizing: content-box;
+
+    .ant-table-scroll::-webkit-scrollbar {
+        width: 0px;
+    }
+
+    .ant-table-header::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .ant-table-body::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    .ant-table-body:hover::-webkit-scrollbar-thumb {
+        background-color: rgb(204, 204, 204);
+    }
+
+    .ant-table-placeholder{
+        transform:translate(-50%,30%)!important
+    }
+
+    .ant-table-body{
+        min-height: 168px;
+        max-height: 168px;
+    }
+    .editable-cell-value-wrap{
+        height: 35px!important;
+    }
+}

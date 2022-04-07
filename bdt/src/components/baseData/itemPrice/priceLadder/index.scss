@@ -1,0 +1,26 @@
+/*多列表单的样式*/
+
+.form-more-col {
+    .form-more-col-layout {
+        padding-right: 12px;
+        height: 46px;
+    }
+    .ant-form-item {
+        margin-bottom: 15px;
+    }
+    .ant-form-item-with-help.ant-form-item {
+        margin-bottom: 0;
+    }
+    .has-error .ant-form-explain,
+    .has-error .ant-form-split {
+        font-size: 12px;
+        line-height: 1;
+    }
+}
+
+
+@media screen and (min-width:1601px) {
+    .form-more-col .form-more-col-layout {
+        width: 25%;
+    }
+}

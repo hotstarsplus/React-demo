@@ -1,0 +1,20 @@
+.orid-multipleselect {
+    .ant-select-selection--multiple {
+        height: 32px;
+        cursor: pointer;
+
+        .ant-select-selection__rendered {
+            .ant-select-selection__choice {
+                border: none;
+                background-color: transparent;
+            }
+
+            .ant-select-search {
+                height: 0px;
+            }
+            .ant-select-search__field {
+                width: 0px !important;
+            }
+        }
+    }
+}

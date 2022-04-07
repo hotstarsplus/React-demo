@@ -1,0 +1,29 @@
+.time-picker.ant-time-picker-panel-narrow .ant-time-picker-panel-input-wrap {
+    min-width: 140px;
+}
+.time-picker .ant-time-picker-panel-select,
+.time-picker .ant-time-picker-panel-select ul {
+    width: 70px;
+}
+
+.ChargeWriteOffParamForm-RadioGroup {
+    display: flex;
+    flex-direction: column;
+    .ant-radio-wrapper {
+        display: flex;
+        margin: 0px;
+        line-height: 40px;
+        .ant-radio {
+            margin-top: 12px;
+            height: 16px;
+            display: flex;
+            align-items: center;
+        }
+        .Radio-span {
+            display: flex;
+            .ant-form-item-control {
+                width: 80px;
+            }
+        }
+    }
+}

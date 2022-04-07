@@ -1,0 +1,16 @@
+.invoice_param_box .ant-card-body {
+    height: 200px;
+}
+
+.invoice_param_flex {
+    display: flex;
+    flex-direction: column;
+    .ant-checkbox-wrapper {
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+}
+
+.invoice_param_space {
+    margin-bottom: 8px;
+}

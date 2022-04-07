@@ -1,0 +1,31 @@
+
+.Applabel{
+    font-size:12px;
+    //line-height:30px;
+    //height:30px;
+    // background:orange;
+    position:absolute;
+    right:0;
+    top:0;
+    z-Index:1;
+    //padding:0 -4em;
+   // -webkit-transform-origin:left bottom;
+  // -moz-transform-origin:left bottom;
+   // transform-origin:left bottom;
+   -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    transform: rotate(45deg);
+    text-indent:0;
+    width:60px;
+    height:0;
+    border-width:0px 20px 20px 20px;
+    border-style:none solid solid;
+    border-color:transparent transparent #3CB371;
+    color:#fff;
+    margin-right:-16px;
+    margin-top: 3px;
+    
+    }
+    .bdt-AppCard .ant-cascader-menus{
+        height: 50px !important;
+    }

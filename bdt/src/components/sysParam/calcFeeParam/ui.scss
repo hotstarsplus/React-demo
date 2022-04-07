@@ -1,0 +1,17 @@
+.calc-fee-param-box {
+    margin-top: 16px;
+    .ant-card-body {
+        height: 102px;
+    }
+    .ant-checkbox-wrapper {
+        margin-left: 0px;
+        margin-bottom: 8px;
+    }
+    .ant-radio-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .ant-radio-wrapper {
+        margin-bottom: 8px;
+    }
+}

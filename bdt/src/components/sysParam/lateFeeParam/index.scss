@@ -1,0 +1,65 @@
+.text-col {
+    width: 148px;
+}
+
+.Component-col {
+    width: calc(100% - 120px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .Component-col-span {
+        float: right;
+        .anticon-info-circle {
+            color: orange;
+            padding-right: 8px;
+            margin-left: 8px;
+        }
+    }
+}
+
+.laterFeeParam-checkBox {
+    .ant-input {
+        margin: 0px 6px 0px 6px;
+        width: 120px;
+        // height: 20px;
+        text-align: center;
+        padding: 2px 0px 0px 0px;
+    }
+}
+
+.laterFeeParam-radio {
+    .ant-input {
+        margin: 0px 8px 0px 8px;
+        width: 120px;
+        // height: 20px;
+        text-align: center;
+        // padding: 2px 0px 0px 0px;
+    }
+}
+
+.lateFeeComputeProportion-input {
+    width: 24%;
+    text-align: center;
+    height: 24px;
+    padding: 2px 0px 0px 0px;
+}
+
+.row-FlexAlign {
+    margin-bottom: 16px;
+}
+
+.late-fee-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.late-fee-h5 {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 16px;
+}
+
+.late-fee-middle {
+    height: calc(100vh - 170px);
+    overflow: auto;
+}

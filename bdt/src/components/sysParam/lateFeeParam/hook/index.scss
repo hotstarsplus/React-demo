@@ -1,0 +1,35 @@
+.feeparam-select {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    transition: 0.2s;
+}
+
+.late-fee-select:hover {
+    background-color: #e6f7ff;
+}
+
+.late-fee-selected {
+    background-color: #bae7ff;
+}
+
+.rule-name {
+    min-width: 160px;
+    max-width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.late-fee-select {
+    margin: 8px;
+    padding: 8px 0px;
+    text-align: left;
+    padding-left: 4px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}

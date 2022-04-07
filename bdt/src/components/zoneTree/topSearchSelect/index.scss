@@ -1,0 +1,17 @@
+.dropdown-SelectedDownData .ant-select-dropdown-menu-item-selected{
+    background: #bae7ff;
+}
+.dropdown-SelectedDownData{
+    /** left: 95px!important;*/
+    /** width: 214px!important;*/
+    .ant-select-dropdown-menu::-webkit-scrollbar{
+        width: 8px; 
+    }
+
+    .ant-select-dropdown-menu::-webkit-scrollbar-thumb{
+        background-color: rgb(203, 204, 204); 
+    }
+}
+.dropdown-unShow{
+    display: none!important;
+}
